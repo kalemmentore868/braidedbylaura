@@ -1,0 +1,26 @@
+.n-link {
+  color: white;
+  margin-right: 1.3rem;
+  font-size: 1.2rem;
+}
+
+.hero-bg {
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-bg:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.2);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 20;
+}
