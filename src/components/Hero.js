@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import herobg from "../assets/img/hero-bg.avif";
-import herobg1 from "../assets/img/hero-bg1.avif";
-import herobg2 from "../assets/img/hero-bg2.avif";
+import herobg from "../assets/img/hero-bg.jpg";
+import herobg1 from "../assets/img/hero-bg1.jpg";
+import herobg2 from "../assets/img/hero-bg2.jpg";
 
 const Hero = () => {
   const [index, setIndex] = useState(0);

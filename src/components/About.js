@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import aboutImg from "../assets/img/about-img.avif";
+import aboutImg from "../assets/img/about-img.jpg";
 
 const About = () => {
   return (

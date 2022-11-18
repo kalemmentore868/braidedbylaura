@@ -39,7 +39,6 @@ const Portfolio = () => {
                         <Card.Img
                           src={imgUrl}
                           alt="frfd"
-                          fluid
                           className={isDesktop ? "" : "mobile-card-img"}
                         />
                       </Card>
