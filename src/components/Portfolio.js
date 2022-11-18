@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
 import Card from "react-bootstrap/Card";

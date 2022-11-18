@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import { BsFacebook, BsInstagram, BsGem, BsEnvelopeFill } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsEnvelopeFill } from "react-icons/bs";
 import { AiOutlineHome, AiOutlinePhone } from "react-icons/ai";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
