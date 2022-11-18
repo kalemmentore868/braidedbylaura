@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="text-center text-lg-start bg-light text-muted">
+    <footer className="text-center text-lg-start bg-black text-muted">
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
         <div className="me-5 d-none d-lg-block">
           <span>Get connected with us on social networks:</span>
@@ -29,9 +29,7 @@ const Footer = () => {
         <Container className="text-center text-md-start mt-5">
           <Row className="mt-3">
             <Col md={3} lg={4} xl={3} className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">
-                <BsGem /> Benign
-              </h6>
+              <h6 className="text-uppercase fw-bold mb-4">BraidedByLaura</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -44,22 +42,22 @@ const Footer = () => {
               <h6 className="text-uppercase fw-bold mb-4">Services</h6>
               <p>
                 <Link href="/services/companion-care" className="text-reset">
-                  Companion Care
+                  Service 1
                 </Link>
               </p>
               <p>
                 <Link href="/services/personal-care" className="text-reset">
-                  Personal Care
+                  Service 2
                 </Link>
               </p>
               <p>
                 <Link href="/services/nursing-services" className="text-reset">
-                  Nursing Services
+                  Service 3
                 </Link>
               </p>
               <p>
                 <Link href="/services/child-services" className="text-reset">
-                  Child Care Service
+                  Service 4
                 </Link>
               </p>
             </Col>
@@ -68,7 +66,7 @@ const Footer = () => {
               <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
               <p>
                 <Link href="/careers" className="text-reset">
-                  Careers
+                  Make Appointment
                 </Link>
               </p>
               <p>
@@ -86,15 +84,15 @@ const Footer = () => {
             <Col md={4} lg={3} xl={3} className="mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
               <p>
-                <AiOutlineHome size={20} className="me-3" /> 18 Prizgar Rd, San
-                Juan, Trinidad and Tobago
+                <AiOutlineHome size={20} className="me-3" /> Oropune Gardens,
+                Piarco, Trinidad and Tobago
               </p>
               <p>
                 <BsEnvelopeFill size={20} className="me-3" />
                 info@example.com
               </p>
               <p>
-                <AiOutlinePhone size={20} className="me-3" /> +1-868-375-4633
+                <AiOutlinePhone size={20} className="me-3" /> +1-868-313-8183
               </p>
             </Col>
           </Row>

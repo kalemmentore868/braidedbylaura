@@ -295,7 +295,7 @@ ul.social-list li a i {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.carousel-inner {
+.hero-styles .carousel-inner {
   height: 500px;
 }
 
@@ -305,7 +305,19 @@ ul.social-list li a i {
   opacity: 0.6;
 }
 
+.pro-stack {
+  min-height: 700px;
+}
+
+.mobile-card-img {
+  max-height: 250px;
+}
+
 .caption {
   opacity: 1 !important;
   color: white;
+}
+
+.f-large {
+  font-size: 4rem;
 }

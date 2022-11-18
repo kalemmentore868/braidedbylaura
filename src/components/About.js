@@ -11,21 +11,21 @@ const About = () => {
       <Container fluid className="px-lg-5">
         <Row>
           <Col className="mb-5" md={6}>
-            <Image src={aboutImg} alt="nurse at work" fluid />
-          </Col>
-          <Col md={6}>
-            <div className="about-content text">
-              <h2>Welcome to Benign Nursing Home</h2>
-              <p className="about-text mt-3">
-                We at Benign Nursing Home, through the recognition of
-                individuality and respect of others, are committed to be a
-                center of excellence which we provide for wellness of body, mind
-                and spirit. This user friendly healthcare institution is
-                equipped with many of the foremost specialists in the region and
-                with courteous and efficient nurses and staff who are, at all
-                times, ready to offer advice and assistance.
+            <div className="text-center">
+              <h2>About Me</h2>
+              <p className="mt-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum."
               </p>
             </div>
+          </Col>
+          <Col md={6}>
+            <Image src={aboutImg} alt="nurse at work" fluid />
           </Col>
         </Row>
       </Container>
